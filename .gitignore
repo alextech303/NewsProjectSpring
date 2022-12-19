@@ -11,3 +11,4 @@
 
 # Mac artifacts
 .DS_Store
+/bin/

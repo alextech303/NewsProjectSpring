@@ -9,8 +9,15 @@
 
 
 	<properties>
-		<spring.version>4.3.5.RELEASE</spring.version>
+		<spring.version>5.0.6.RELEASE</spring.version>
+		<springsecurity.version>5.0.0.RELEASE</springsecurity.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>17</java.version>
+		<maven.compiler.version>3.8.1</maven.compiler.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
+
 
 	<dependencies>
 		<dependency>
@@ -90,8 +97,8 @@
 			<artifactId>javax.activation</artifactId>
 			<version>1.2.0</version>
 		</dependency>
-		
-		
+
+
 		<dependency>
 			<groupId>jakarta.xml.bind</groupId>
 			<artifactId>jakarta.xml.bind-api</artifactId>
@@ -109,11 +116,11 @@
 			<artifactId>javassist</artifactId>
 			<version>3.25.0-GA</version>
 		</dependency>
-		
+
 	</dependencies>
-  <build>
-    <finalName>newsManagement</finalName>
-    <plugins>
+	<build>
+		<finalName>newsManagement</finalName>
+		<plugins>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
@@ -135,5 +142,5 @@
 				<version>3.8.1</version>
 			</plugin>
 		</plugins>
-  </build>
+	</build>
 </project>
