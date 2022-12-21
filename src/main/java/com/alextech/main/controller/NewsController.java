@@ -14,6 +14,7 @@ public class NewsController {
 	public String listLatesNews(Model theModel) {
 
 		theModel.addAttribute("user", "notActive");
+		theModel.addAttribute("show", "ok");
 
 		return "baseLayout";
 	}
