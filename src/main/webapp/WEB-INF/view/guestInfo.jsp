@@ -21,6 +21,7 @@
 
 <div class="no-news">
 
-	<p><img src="images/news2.jpg " width=700px height=370px></p> 
+	<img src="${pageContext.request.contextPath}/resources/news2.jpg"/>
+	
 </div>
 
